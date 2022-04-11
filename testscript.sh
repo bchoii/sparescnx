@@ -1,5 +1,5 @@
-sudo apt-get update
-sudo apt-get install python3.6
+apt-get update
+apt-get install python3.6
 python3 --version
 pwd
 ls
