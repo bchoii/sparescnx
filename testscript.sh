@@ -5,4 +5,4 @@ chmod +x rabbitmqadmin
 which python
 which python3
 ln -s /usr/bin/python python3
-# ./rabbitmqadmin
+./rabbitmqadmin
