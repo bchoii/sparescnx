@@ -2,4 +2,5 @@ curl -s https://raw.githubusercontent.com/rabbitmq/rabbitmq-server/v3.9.14/deps/
 pwd
 ls -lsta
 chmod +x rabbitmqadmin
+ln -s /usr/bin/python3 /usr/bin/python
 ./rabbitmqadmin
