@@ -7,3 +7,4 @@ chmod +x rabbitmqadmin
 echo ${RABBITMQ_HOSTNAME}
 echo ${RABBITMQ_USERNAME}
 ./rabbitmqadmin -H ${RABBITMQ_HOSTNAME} -u ${RABBITMQ_USERNAME} -p ${RABBITMQ_PASSWORD} list queues
+echo Done.
