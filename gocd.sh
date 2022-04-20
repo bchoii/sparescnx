@@ -1,5 +1,7 @@
-cat queues.json
-# ./rabbitmqadmin --help
+# cat queues.json
+./rabbitmqadmin --help
+curl https://raw.githubusercontent.com/bchoii/sparescnx/main/gocd.py -o gocd.py
+python3 ./gocd.py
 # curl http://${CLOUD_RABBITMQ_HOSTNAME}:15672/cli/rabbitmqadmin -o rabbitmqadmin
 # chmod +x rabbitmqadmin
 # cat ./rabbitmqadmin
