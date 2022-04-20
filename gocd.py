@@ -1,7 +1,7 @@
 import json
 
 # Opening JSON file
-f = open('../queues.json')
+f = open('queues.json')
 
 # returns JSON object as
 # a dictionary
