@@ -13,7 +13,7 @@ f.close()
 # Print data
 # print(data)
 
-output = open("../purge.sh", "w")
+output = open("purge.sh", "w")
 
 # Iterating through the json list
 for row in data:
