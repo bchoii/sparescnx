@@ -1,7 +1,7 @@
 import json
 
 # Opening JSON file
-f = open('queues.json')
+f = open('../queues.json')
 
 # returns JSON object as
 # a dictionary
@@ -13,7 +13,7 @@ f.close()
 # Print data
 # print(data)
 
-output = open("purge.sh", "w")
+output = open("../purge.sh", "w")
 
 # Iterating through the json list
 for row in data:

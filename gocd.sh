@@ -1,5 +1,3 @@
-curl https://raw.githubusercontent.com/bchoii/sparescnx/main/gocd.py -o gocd.py
-cat gocd.py
 python3 ./gocd.py
 ls
 cat purge.sh
