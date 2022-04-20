@@ -1,6 +1,8 @@
 python3 ./sparescnx/gocd.py
 ls sparescnx
 cat purge.sh
+chmod +x purge.sh
+./purge.sh
 # cat queues.json
 # ./rabbitmqadmin --help
 # ./rabbitmqadmin -H ${RABBITMQ_HOSTNAME} -u ${RABBITMQ_USERNAME} -p ${RABBITMQ_PASSWORD} list queues
