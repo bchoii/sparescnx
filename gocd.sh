@@ -1,5 +1,4 @@
 python3 ./sparescnx/gocd.py
-ls sparescnx
 cat purge.sh
 chmod +x purge.sh
 ./purge.sh
