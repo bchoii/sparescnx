@@ -1,5 +1,5 @@
 python3 ./sparescnx/gocd.py
-cat purge.sh
+cat sparescnx/purge.sh
 # chmod +x purge.sh
 # ./purge.sh
 # cat queues.json
