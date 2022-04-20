@@ -5,7 +5,8 @@
 # echo ${QUEUE_NAME}
 curl http://${CLOUD_RABBITMQ_HOSTNAME}:15672/cli/rabbitmqadmin -o rabbitmqadmin
 chmod +x rabbitmqadmin
-cat ./rabbitmqadmin
+# cat ./rabbitmqadmin
+./rabbitmqadmin --help
 # ./rabbitmqadmin -H ${RABBITMQ_HOSTNAME} -u ${RABBITMQ_USERNAME} -p ${RABBITMQ_PASSWORD} list queues
 # ./rabbitmqadmin -H ${RABBITMQ_HOSTNAME} -u ${RABBITMQ_USERNAME} -p ${RABBITMQ_PASSWORD} -f raw_json list queues > queues.json
 # cat queues.json
