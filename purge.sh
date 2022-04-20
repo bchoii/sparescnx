@@ -1,1 +1,0 @@
-./rabbitmqadmin -H ${CLOUD_RABBITMQ_HOSTNAME} -u ${CLOUD_RABBITMQ_USERNAME} -p ${CLOUD_RABBITMQ_PASSWORD} --vhost=/supplier-portal-stage purge queue name=job-po-change-queue.retry
