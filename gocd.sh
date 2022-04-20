@@ -2,6 +2,7 @@ curl https://raw.githubusercontent.com/bchoii/sparescnx/main/gocd.py -o gocd.py
 cat gocd.py
 python3 ./gocd.py
 ls
+cat purge.sh
 # cat queues.json
 # ./rabbitmqadmin --help
 # ./rabbitmqadmin -H ${RABBITMQ_HOSTNAME} -u ${RABBITMQ_USERNAME} -p ${RABBITMQ_PASSWORD} list queues
