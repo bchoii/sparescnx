@@ -1,3 +1,5 @@
+# generate purge.sh from queues.json
+
 import json
 
 # Opening JSON file
