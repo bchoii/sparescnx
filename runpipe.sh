@@ -3,6 +3,8 @@ chmod +x rabbitmqadmin
 ./rabbitmqadmin -H ${RABBITMQ_HOSTNAME} -u ${RABBITMQ_USERNAME} -p ${RABBITMQ_PASSWORD} list queues
 ./rabbitmqadmin -H ${RABBITMQ_HOSTNAME} -u ${RABBITMQ_USERNAME} -p ${RABBITMQ_PASSWORD} -f raw_json list queues > queues.json
 cat queues.json
+node -v
+node ./nodescript.js
 sleep 600
 # ls -lsta
 # pwd
