@@ -1,7 +1,10 @@
 # cat queues.json
 ./rabbitmqadmin --help
+./rabbitmqadmin -H ${RABBITMQ_HOSTNAME} -u ${RABBITMQ_USERNAME} -p ${RABBITMQ_PASSWORD} list queues
 curl https://raw.githubusercontent.com/bchoii/sparescnx/main/gocd.py -o gocd.py
 python3 ./gocd.py
+# ./rabbitmqadmin -H ${RABBITMQ_HOSTNAME} -u ${RABBITMQ_USERNAME} -p ${RABBITMQ_PASSWORD} -f raw_json list queues > queues.json
+# ./rabbitmqadmin -H ${CLOUD_RABBITMQ_HOSTNAME} -u ${CLOUD_RABBITMQ_USERNAME} -p ${CLOUD_RABBITMQ_PASSWORD} --vhost=${VHOST} purge queue name=${QUEUE_NAME}
 # curl http://${CLOUD_RABBITMQ_HOSTNAME}:15672/cli/rabbitmqadmin -o rabbitmqadmin
 # chmod +x rabbitmqadmin
 # cat ./rabbitmqadmin
@@ -10,9 +13,6 @@ python3 ./gocd.py
 # echo ${CLOUD_RABBITMQ_PASSWORD}
 # echo ${VHOST}
 # echo ${QUEUE_NAME}
-# ./rabbitmqadmin -H ${CLOUD_RABBITMQ_HOSTNAME} -u ${CLOUD_RABBITMQ_USERNAME} -p ${CLOUD_RABBITMQ_PASSWORD} --vhost=${VHOST} purge queue name=${QUEUE_NAME}
-# ./rabbitmqadmin -H ${RABBITMQ_HOSTNAME} -u ${RABBITMQ_USERNAME} -p ${RABBITMQ_PASSWORD} list queues
-# ./rabbitmqadmin -H ${RABBITMQ_HOSTNAME} -u ${RABBITMQ_USERNAME} -p ${RABBITMQ_PASSWORD} -f raw_json list queues > queues.json
 # cat queues.json
 # node -v
 # node ./nodescript.js
